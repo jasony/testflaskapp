@@ -4,7 +4,7 @@ __author__ = 'jslvtr'
 
 
 class Database(object):
-    URI = "mongodb://heroku_cpgqng5t:mruri0jaek13g4kglv0mgsdtir@ds149059.mlab.com:49059/heroku_cpgqng5t"
+    URI = "f"
     DATABASE = None
 
     @staticmethod
