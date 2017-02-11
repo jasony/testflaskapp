@@ -1,6 +1,12 @@
-from src.app import app
+#from src.app import app
 import os
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+	return "Hello World!"
+		
 __author__ = 'jslvtr'
 
 if __name__ == "__main__":
